@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #faf7f7;
+        font-family:sans-serif
+    }
+    header{
+    background-image: linear-gradient(#ec0000,#9b0000);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    }
+    .cabecalho-itens{
+
+    max-width: 1980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .cabecalho-imagem{
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+    .titulo_site{
+    padding: 60px;
+    text-align: center;
+    width: 50%;
+    font-size: 300%;
+    color: rgb(116, 0, 0);
+    }
+    .sociais{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .banner1{
+    display: flex;
+    justify-content: center;
+    width: 490px;
+    height:490px;
+    margin-left:37%;
+
+
+    }
+    .estudante_titulo{
+    color: white;
+    background-color: rgb(116, 0, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: 350%;
+    letter-spacing: 40px;
+    display: flex;
+    justify-content: center;
+
+    
+    }
+    .contatos{
+      display: flex;
+      justify-content: space-between;
+      flex-direction:row;
+      padding:25px;
+      margin-left:6%;
+
+    }
+    #botao-contato{
+      border:none;
+      border-radius:15px;
+      width:200px;
+      height:50px;
+      margin-left:6%;
+      margin-right:18%;
+      margin-top:25px;
+    }
+    .estudante-nome{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    }
+    .estudante-imagem{
+    width: 120px;
+    }
+    .estudante-icone{
+    width: 38px;
+  
+    }
+    .estudante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    }
+    #video{
+        display: flex;
+        height: 25%;
+        margin-left:15%;
+    }
+    #w-ronaldo{
+      height:450px;
+      width:100%;
+    }
+    
+    .estudante.div{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background: red;
+    }
+    .estudantes_todos{
+    display: flex;
+    justify-content: space-around;
+    }
+    .escola{
+    background-image: linear-gradient(#880000,#e00000);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    padding: 24px 0;
+    text-align:center;
+    display:block;
+    }
+    .escola-titulo{
+    color: white;
+    text-align: center;
+    }
+    .logo_rodape{
+    height: 80px;
+    padding: 12px 0;
+    
+    }
+    
+    .link{
+    color: rgb(240, 96, 96);
+    text-decoration: none;
+    }
+    button {
+       width:100%;
+       height: 103px;
+       color: black;
+       background-color: rgb(116,0,0);
+       font-size: 80%;
+    }
+    .titulo-sobremim{
+        text-align: center;
+        font-size: 300%;
+    }
+    .mapa{
+    display: none;
+    justify-content: center;
+    width: 10%;
+    height: 150px;
+    }
+    .video{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    height: auto;
+    margin-left: 1px;
+    }
+    .guardar.video {
+        display:flex;
+        justify-content: center;
+    }
+    .video-titulo {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 65px;
+        font-weight: bold;
+        color: #eb8383;
+        text-align: center;
+        margin-bottom:15px;
+    }
+    iframe {
+        display:flex;
+        
+    }
+
+    h2, p {
+        margin: 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+        overflow: hidden;
+        background-color: #ebe9e9;
+        border-radius:10px;
+        font-size:80%
+      }
+      
+      ul li {
+        float: left;
+      }
+      
+      ul li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 15px;
+        text-decoration: none;
+      }
+      
+      ul li a:hover {
+        color: white;
+        background-color:#000000
+      }
+      iframe{
+        margin-left:35%;
+      }
+      #button2{
+        background-image: url(logo.png);
+        height: 50px;
+        width: 7%;
+      }
+      #button2:hover{
+        background-color:#000000;
+        background-image: url(logo2.png);
+      }
+      .imagens-jogo{
+       display:flex;
+       justify-content:space-around;
+     
+        padding: 20px;
+      }
+      .fifa{
+        background:linear-gradient(rgb(1, 212, 212), cyan);
+        border-radius:15px;
+        padding:15px;
+        margin:30px 0 30px 0;
+        #jogo-fifa{
+          border:10px solid rgb(0, 184, 184);
+          border-radius:15px;
+        }
+        
+      }
+      .jogos{
+        margin:30px;
+      }
+
+      .mine{
+        background:linear-gradient(to bottom, rgb(25, 113, 244), rgb(1, 108, 49));
+        border-radius:15px;
+        padding:15px;
+        margin:30px 0 30px 0;
+        #jogo-mine{
+          border:10px solid rgb(1, 108, 49);
+          border-radius:15px;
+        }
+        
+      }
+
+      .re{
+        background:linear-gradient(to bottom, rgb(155, 191, 234), rgb(0, 41, 135));
+        border-radius:15px;
+        padding:15px;
+        margin:30px 0 30px 0;
+        #jogo-re{
+          border:10px solid rgb(0, 41, 135);
+          border-radius:15px;
+        }
+        
+      }
+
+
+      .bloons{
+        background:linear-gradient(to bottom, rgb(255, 247, 102), rgb(134, 127, 3));
+        border-radius:15px;
+        padding:15px;
+        margin:30px 0 30px 0;
+        #jogo-bloons{
+          border:10px solid rgb(80, 80, 2);
+          border-radius:15px;
+        }
+        
+      }
+      .jogos{
+        margin:30px;
+      }
+
+      .titulo-fifa{
+      font-size: 27px;
+      margin-left: 18%;
+
+      margin-right: 20%;
+
+
+      margin-top: -22%; 
+
+    
+      }
+
+      
+    
+
+      .titulo-mine{
+      font-size: 30px;
+      margin-left: 18%;
+
+      margin-right: 21%;
+
+      margin-top: -21%; 
+
+    
+      }
+      
+      .titulo-re{
+      font-size: 32px;
+      margin-left: 18%;
+
+      margin-right: 20%;
+
+      margin-top: -23%; 
+
+    
+      }
+.titulo-bloons{
+
+      font-size: 45px;
+      margin-left: 18%;
+
+
+      margin-right: 15%;
+
+      margin-top: -23%; 
+
+    
+      }
+      
+      
+
+
+
+
+
+
+
+
